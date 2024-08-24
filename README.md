@@ -1,1 +1,1 @@
-# simple-calculator-html-js-css-
+a simple calculator without parentheses and other important shits 🤓
