@@ -1,3 +1,10 @@
+try {
+    document.createEvent('TouchEvent');
+    alert("I know the interface looks awful, try using Desktop Site / rotating your screen \u{1f64f}");
+} catch {
+    console.log('awful');
+}
+
 const box = document.getElementById('result')
 const keys = Array.from(document.querySelectorAll('.key'));
 let c = '';
